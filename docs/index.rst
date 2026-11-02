@@ -6,13 +6,11 @@
 2026-Preseason documentation
 ============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Hello, world!
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   Challenge1
+   src/Challenge1
