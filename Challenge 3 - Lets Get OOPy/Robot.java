@@ -1,6 +1,6 @@
 class Robot {
-    String color;
-    int speed;
+    private String color;
+    private int speed;
     
     public Robot(String colorIn, int speedIn) {
         color = colorIn;
@@ -12,14 +12,14 @@ class Robot {
     }
 
     public void paint(String newColor) {
-        color = newColor;
-    }
-
-    public int getSpeed() {
-        return speed;
+        color = newColor; // Set the color to the new color
     }
 
     public String getColor() {
-        return color;
+        return color; // Return the current color
+    }
+
+    public int getSpeed() {
+        return speed; // Return the current speed
     }
 }

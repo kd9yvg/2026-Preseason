@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         /*
-        * public Charecter(String nameIn, int healthIn, int attackPowerIn) 
+        * public Character(String nameIn, int healthIn, int attackPowerIn) 
         * public void setHealth(int newHealth)
         * public void setAttackPower(int newAttackPower)
         * public int getHealth()
@@ -19,9 +19,18 @@ public class Main {
         *   Defense Shield
         */
 
-        // Create new Charecters with some heath, attack power, and items in their inventory
-        // Have the great battles and print the updated health and inventory of the Charecters after each battle
-        System.out.println("Hello, World!");
+        // Create new Characters with some heath, attack power, and items in their inventory
+        // Have the great battles and print the updated health and inventory of the Characters after each battle
+        Character lucas = new Character("Also Lucas", 50, 100);
+        Character aryaan = new Character("Also Aryaan", 5, 500);
+        Character braden2 = new Character("Brick", 60, 501);
+        Character seth = new Character("L0nk", 100, 502);
+
+
+        lucas.addItem("Defense Shield");
+        aryaan.addItem("Water Potion");
+        braden2.addItem("Fire Torch");
+        seth.addItem("Stength Elixir");
     }
     
     public static void great_battle_1() {

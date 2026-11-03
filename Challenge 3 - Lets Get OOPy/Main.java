@@ -16,14 +16,26 @@ class Main {
         
         // List all the colors of the robots
         System.out.println(aaryan.getColor());
-        
+        System.out.println(braden2.getColor());
+        System.out.println(seth.getColor());
+        System.out.println(lucas.getColor());
+
         // Paint one of the robots
+        aaryan.paint("black");
 
         // Relist the color of the robots
+        System.out.println(aaryan.getColor());
+        System.out.println(braden2.getColor());
+        System.out.println(seth.getColor());
+        System.out.println(lucas.getColor());
 
         // List all the speeds of the robots
 
+        int speed = braden2.getSpeed();
+        System.out.println(speed);
         // Change the speed of one of the robots
+        braden2.setSpeed(3);
+        System.out.println(braden2.getSpeed());
 
         // Relist the speed of the robots 
     }

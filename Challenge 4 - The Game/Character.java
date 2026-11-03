@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Charecter {
+public class Character {
     String name;
     int health;
     int attackPower;
     List<String> inventory; // Inventory list
 
-    public Charecter(String nameIn, int healthIn, int attackPowerIn) {
+    public Character(String nameIn, int healthIn, int attackPowerIn) {
         name = nameIn;
         health = healthIn;
         attackPower = attackPowerIn;
@@ -21,7 +21,7 @@ public class Charecter {
         }
     }
 
-    public void attack(Charecter target) {
+    public void attack(Character target) {
         target.takeDamage(attackPower);
     }
 
