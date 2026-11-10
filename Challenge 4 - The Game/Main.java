@@ -39,6 +39,7 @@ public class Main {
     
     public static void great_battle_2() {
         // Use some items from the inventory in the seccond battle
+        // I changed this in the VM
     }
 }
 
