@@ -21,6 +21,10 @@ public class Character {
         }
     }
 
+    public int getAttackPower() {
+        return attackPower;
+    }
+
     public void attack(Character target) {
         target.takeDamage(attackPower);
     }
