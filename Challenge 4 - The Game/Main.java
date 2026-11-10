@@ -42,6 +42,7 @@ public class Main {
         // Use some items from the inventory in the seccond battle
         Monsters iceMonster = Monsters.createIceMonster();
         Monsters poisonMonster = Monsters.createPoisonMonster();
+        // I made this on my mac
     }
 }
 
