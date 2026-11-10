@@ -35,11 +35,15 @@ public class Main {
     
     public static void great_battle_1() {
         // Make a great battle happnen
+        Monsters fireMonster = Monsters.createFireMonster();
     }
     
     public static void great_battle_2() {
         // Use some items from the inventory in the seccond battle
         // I changed this in the VM
+        Monsters iceMonster = Monsters.createIceMonster();
+        Monsters poisonMonster = Monsters.createPoisonMonster();
+        // I made this on my mac
     }
 }
 
